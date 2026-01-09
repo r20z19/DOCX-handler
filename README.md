@@ -27,6 +27,9 @@ python app.py 然后浏览器进入127.0.0.1:5000
 
 <img width="500" height="500" alt="屏幕截图 2026-01-09 203859" src="https://github.com/user-attachments/assets/a5a09bc0-8e86-4845-8629-40941f5e922c" />
 
+### 结果呈现
+
+<img width="600" height="500" alt="屏幕截图 2026-01-09 204008" src="https://github.com/user-attachments/assets/808f7cf9-4d22-42bc-8442-4d2380108d49" />
 
 ### 注意：
 1.docx里面不能出现回车自动排版的格式，比如一级标题是（一）  （二） （三），回车生成的（四）是不会被代码检测到的，必须是手动打的（四）才会被代码检测并处理。
