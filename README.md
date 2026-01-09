@@ -1,11 +1,28 @@
 # DOCX-handler
 DOCX论文文件排版器，方便学生党的快速排版神器
 
-### 安装依赖：
-pip install python-docx
+### 安装：
+git clone https://github.com/r20z19/DOCX-handler.git
+cd DOCX-handler
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 ### 使用：
-在if __name__ == "__main__":中修改1234级标题的标识、字号、字体、加粗、输入输出路径、引用标识，然后运行即可
+python app.py 然后浏览器进入127.0.0.1:5000
+
+1.首先按照想要的四级标识进行写docx或doc文档
+
+<img width="1170" height="1016" alt="屏幕截图 2026-01-09 203709" src="https://github.com/user-attachments/assets/0deafb30-2207-4ac3-899e-3d9824712a8d" />
+
+2.然后清除全部格式，以免造成代码识别错误
+
+
+
+3.接下来把文档内容全部粘贴到新的空的docx或doc文档，以免不可见字符造成代码识别错误
+
+
+4.最后进入127.0.0.1:5000 选择对应的标识，字体，字号，是否加粗，再上传文档即可
+
+
 
 ### 注意：
 1.docx里面不能出现回车自动排版的格式，比如一级标题是（一）  （二） （三），回车生成的（四）是不会被代码检测到的，必须是手动打的（四）才会被代码检测并处理。
